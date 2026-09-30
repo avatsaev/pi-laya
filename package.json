@@ -1,0 +1,15 @@
+{
+  "name": "pi-laya",
+  "version": "0.1.0",
+  "description": "Laya decision engine tool for the pi coding agent",
+  "type": "module",
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["./extensions/laya.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  }
+}
