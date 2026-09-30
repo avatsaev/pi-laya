@@ -2,14 +2,23 @@
 
 A [pi](https://pi.dev) extension that lets the agent ask a [Laya](https://github.com/NandhaKishorM/laya) server typed questions about a piece of text.
 
+Source: <https://github.com/avatsaev/pi-laya>
+
 - **`laya_decide` tool**: sends one text and any number of `choice`, `score` or `yes_no` questions to `POST /v1/systemone`, and returns every answer with its probability, the model Laya used, and a flag for low-confidence answers.
 - **`/laya` command**: shows the configured server and its `/health`. `/laya setup` asks for the URL and API key and saves them.
 
 ## Install
 
 ```bash
-pi install ~/DEV/pi-laya          # personal install, loaded in every session
-pi -e ~/DEV/pi-laya               # or: try it for one session only
+pi install git:github.com/avatsaev/pi-laya
+```
+
+To try it for one session only, or to work on it locally:
+
+```bash
+git clone https://github.com/avatsaev/pi-laya.git
+pi -e ./pi-laya                 # load for this session only
+pi install ./pi-laya            # or install the local checkout
 ```
 
 ## Configure

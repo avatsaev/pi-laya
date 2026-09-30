@@ -2,6 +2,12 @@
   "name": "pi-laya",
   "version": "0.1.0",
   "description": "Laya decision engine tool for the pi coding agent",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avatsaev/pi-laya.git"
+  },
+  "homepage": "https://github.com/avatsaev/pi-laya#readme",
+  "bugs": "https://github.com/avatsaev/pi-laya/issues",
   "type": "module",
   "keywords": ["pi-package"],
   "pi": {
